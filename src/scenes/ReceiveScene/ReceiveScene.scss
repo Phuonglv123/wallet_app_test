@@ -1,0 +1,75 @@
+#receive {
+  .card-table-sent {
+    display: flex;
+    justify-content: center;
+
+    .ant-card-body {
+      position: relative;
+    }
+
+    .input-confirm-table {
+      padding: 10px;
+
+      Input {
+        background-image: linear-gradient(to right, #2a7f86, #066091);
+        border: none;
+      }
+    }
+
+    .block-confirm {
+      margin-top: 20px;
+
+      Button {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        background-image: linear-gradient(to right, #2a7f86, #066091);
+        border: none;
+      }
+    }
+
+    .card-sent-confirm {
+      border: 3px solid #2b627b;
+      position: absolute;
+      top: -10px;
+      right: 0px;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      width: 30%;
+
+      .title-head-confirm {
+        font-weight: 600;
+        font-size: 20px;
+        color: #2b627b;
+      }
+
+      .title-icon {
+        border: 1px solid #2b627b;
+        border-radius: 46%;
+        padding: 5px;
+        margin-right: 10px;
+      }
+
+      .card-confirm-absolute {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+      }
+
+      .button-confirm {
+        text-align: center;
+
+        Button {
+          font-size: 20px;
+          font-weight: bold;
+          color: white;
+          background-image: linear-gradient(to right, #2a7f86, #066091);
+        }
+      }
+    }
+  }
+
+}

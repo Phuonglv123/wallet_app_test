@@ -1,0 +1,73 @@
+#sent .card-table-sent {
+  display: flex;
+  justify-content: center;
+}
+#sent .card-table-sent .ant-input-group-addon {
+  background-color: #0c6590;
+  border: none;
+}
+#sent .card-table-sent .ant-card-body {
+  position: relative;
+}
+#sent .card-table-sent .input-confirm-table {
+  padding: 10px;
+}
+#sent .card-table-sent .input-confirm-table span {
+  font-weight: 500;
+  font-size: 14px;
+}
+#sent .card-table-sent .input-confirm-table Input {
+  background-image: linear-gradient(to right, #2a7f86, #066091);
+  border: none;
+}
+#sent .card-table-sent .block-confirm {
+  margin-top: 20px;
+  text-align: center;
+}
+#sent .card-table-sent .block-confirm Button {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(to right, #2a7f86, #066091);
+  border: none;
+  width: 98%;
+}
+#sent .card-table-sent .card-sent-confirm {
+  border: 3px solid #2b627b;
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 30%;
+}
+#sent .card-table-sent .card-sent-confirm .title-head-confirm {
+  font-weight: 600;
+  font-size: 20px;
+  color: #2b627b;
+}
+#sent .card-table-sent .card-sent-confirm .title-icon {
+  border: 1px solid #2b627b;
+  border-radius: 46%;
+  padding: 5px;
+  margin-right: 10px;
+}
+#sent .card-table-sent .card-sent-confirm .card-confirm-absolute {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#sent .card-table-sent .card-sent-confirm .button-confirm {
+  text-align: center;
+  display: flex;
+}
+#sent .card-table-sent .card-sent-confirm .button-confirm Button {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(to right, #2a7f86, #066091);
+}
+
+/*# sourceMappingURL=SentScene.css.map */

@@ -1,0 +1,62 @@
+#transaction {
+  .table-transaction-scene {
+    .ant-table{
+      font-size: 12px;
+    }
+    .ant-table-thead {
+      background-image: linear-gradient(to right, #77adb1, #619ab7);
+    }
+
+    .ant-table-thead > tr > th {
+      background: none;
+      border: none;
+    }
+
+    //.ant-table-tbody > tr > td {
+    //  border-bottom: none;
+    //}
+
+    //tr:nth-child(even) {
+    //  background-color: #477e91;
+    //  border-radius: 8px;
+    //}
+
+    .transaction-details {
+      .ant-card-body {
+        border: 3px solid #2b627b;
+        position: relative;
+        border-radius: 8px;
+      }
+    }
+
+    .bnt-transaction-detail {
+      text-align: center;
+      margin-top: 20px;
+
+      Button {
+        background-image: linear-gradient(to right, #2a7f86, #066091);
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+
+    .icon-over-boder {
+      position: absolute;
+      top: -21px;
+      z-index: 9;
+      background-color: #0b648f;
+      border-radius: 8px;
+
+      img {
+        padding: 5px;
+        filter: brightness(5);
+      }
+    }
+  }
+
+  .cricle-icon {
+    border: 1px solid #2b627b;
+    border-radius: 40%;
+  }
+
+}

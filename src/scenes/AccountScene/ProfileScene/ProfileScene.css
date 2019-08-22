@@ -1,0 +1,36 @@
+#profile h2 {
+  color: #2b627b;
+}
+#profile .profile-user img {
+  width: 20%;
+}
+#profile .button {
+  margin-top: 10px;
+}
+#profile .button button {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(to right, #2a7f86, #066091);
+  border: none;
+}
+#profile .input-confirm-table {
+  padding: 10px;
+}
+#profile .input-confirm-table Input {
+  background-image: linear-gradient(to right, #2a7f86, #066091);
+  border: none;
+}
+#profile .input-confirm-table .label {
+  color: white;
+  line-height: 2.5;
+  font-size: 15px;
+}
+#profile .ant-input-group-addon {
+  background-image: linear-gradient(to right, #2a7f86, #066091);
+  border: none;
+  border-left: 0.5px solid white;
+  color: white;
+}
+
+/*# sourceMappingURL=ProfileScene.css.map */
